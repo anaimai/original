@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.topics_inner {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.ttl_txt p {
+  margin-left: 19%;
+  margin-bottom: 5%;
+}
+
+.topics_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.topics_item {
+  width: 30%;
+  padding: 1%;
+}
+.topics_item img {
+  width: 100%;
+}
+
+.topics_ttl p {
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding-bottom: 2.5%;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 768px)  {
+
+ }
+
+
+@media screen and (max-width: 480px)  { 
+
+.ttl_txt {
+  margin-bottom: 5%;
+  font-size: 10px;
+}
+
+}

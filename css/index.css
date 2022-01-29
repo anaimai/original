@@ -1,0 +1,434 @@
+
+@charset "UTF-8";
+
+
+.top_wrapper {
+  position: relative;
+  width: 100%;
+  height: 40em;
+  overflow: hidden;
+  background: url("../img/top.png") no-repeat center;
+  background-size: cover;
+}
+
+.top_inner {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.top_inner h1 {
+  font-size: 6em;
+  font-weight: 700;
+  color: #555;
+}
+
+.top_inner p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #555;
+  width: 100%;
+}
+
+.message p {
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 150px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #555;
+  position: relative;
+}
+
+.section {
+  padding: 10%;
+  border: solid 2px rgb(176, 207, 224);
+}
+
+.section:nth-of-type(odd) {
+  background-color: #fff
+}
+
+.service_img_1 {
+  position: relative;
+}
+
+.service_img_1::after {
+  content: "";
+  position: absolute;
+  background: url("../img/service1.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.service_img_2 {
+  position: relative;
+}
+
+.service_img_2::after {
+  content: "";
+  position: absolute;
+  background: url("../img/service2.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.service_descript {
+  width: 40%;
+}
+
+.service_descript_right {
+  position: relative;
+  left: 60%;
+}
+
+
+
+.txt h3 {
+  font-size: 2em;
+  color: #555 ;
+  margin-bottom: 7.5%;
+}
+
+.txt p {
+  color: #555;
+}
+
+.project {
+  position: relative;
+  padding: 10%;
+}
+
+.project_list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project_item {
+  width: 30%;
+  height: auto;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.project_item:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+
+.project_img {
+  display: contents;
+  width: 100%;
+}
+
+.project_img img {
+  width: 100%;
+}
+
+.project_txt {
+  padding: 5px 5px;
+}
+
+.project_ttl {
+  margin-bottom: 7.5%;
+  font-size: 23px;
+  line-height: 1;
+}
+
+.project_date {
+  font-size: 11px;
+  line-height: 1;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #8baee6;
+  width: 20%;
+  height: 35px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.company {
+  position: relative;
+  padding: 10%;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+.top_inner h1 {
+  font-size: 6em;
+  font-weight: 700;
+  color: #555;
+  margin-left: 7%;
+  margin-top: 25%;
+}
+  
+}
+
+@media screen and (min-width: 768px)  {
+
+.top_inner {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 32%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.top_inner h1 {
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #555;
+}
+
+.top_inner p {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #555;
+}
+
+.message p {
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #555;
+  position: relative;
+}
+
+.txt p {
+  color: #555;
+}
+
+.project_ttl {
+  margin: 40px 0;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.project_date {
+  font-size: 17px;
+  line-height: 1;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+
+ }
+
+
+
+@media screen and (max-width: 480px)  {
+
+.top_wrapper {
+  position: relative;
+  width: 100%;
+  height: 26em;
+  overflow: hidden;
+  background: url("../img/top.png") no-repeat center;
+  background-size: cover;
+}
+
+.top_inner {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  top: 28%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.top_inner h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #555;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+
+.top_inner p {
+  font-size: 5px;
+  font-weight: 700;
+  color: #555;
+}
+
+.message p {
+  position: absolute;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #555;
+  position: relative;
+}
+
+.section {
+  padding: 10%;
+  border: solid 1px rgb(176, 207, 224);
+}
+
+.section:nth-of-type(odd) {
+  background-color: #fff
+}
+
+.service_img_1 {
+  position: relative;
+}
+
+.service_img_1::after {
+  content: "";
+  position: absolute;
+  background: url("../img/service1.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.service_img_2 {
+  position: relative;
+}
+
+.service_img_2::after {
+  content: "";
+  position: absolute;
+  background: url("../img/service2.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.service_descript {
+  width: 40%;
+}
+
+.service_descript_right {
+  position: relative;
+  left: 60%;
+}
+
+
+
+.txt h3 {
+  font-size: 1em;
+  color: #555 ;
+  margin-bottom: 7.5%;
+}
+
+.project .txt p {
+  color: #555;
+  font-size: 1.5px;
+}
+
+.project {
+  position: relative;
+  padding: 10%;
+}
+
+.project_list {
+  margin-top: 50px;
+  display: block;
+  justify-content: space-between;
+}
+
+.project_item {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.project_item:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+
+.project_img {
+  display: contents;
+  width: 100%;
+}
+
+.project_img img {
+  width: 100%;
+}
+
+.project_txt {
+  padding: 0 12px;
+}
+
+.project_ttl {
+  margin: 7px 0;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.project_date {
+  font-size: 10px;
+  line-height: 1;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-bottom: 26px;
+}
+
+.btn {
+  background: #8baee6;
+  width: 31%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+.company {
+  position: relative;
+  padding: 10%;
+}
+
+
+
+ }
